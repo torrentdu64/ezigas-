@@ -2,6 +2,11 @@
 /* CSS Document */
 
 
+body{
+  font-family:Work Sans;
+
+}
+
 
 
 .navbar-default {   background-color:#FFFFFF;
@@ -13,10 +18,10 @@
 					padding-top:7px;
 					padding-bottom:6px;
                     }
-					
+
 .navbar-brand {
-padding-top:10px;}					
-																												  
+padding-top:10px;}
+
 .img1
 { display:inline-block;
 margin-top:-15px;
@@ -32,22 +37,28 @@ font-weight:bolder!important;
 letter-spacing:1.5px;
 font-family:Work Sans;
 
-} 
+}
 
 .btn3
-{ background-color:#000F8B;
-color:#fff;
-border-radius:0px;
-padding:10px 25px 10px 25px;
-font-size:16px;
-font-weight:400;
-letter-spacing:1px;
-font-family:Work Sans;
-margin-top:6px;
-
+{
+  background-color:#000F8B;
+  color:#fff;
+  border-radius:0px;
+  padding:10px 25px 10px 25px;
+  font-size:16px;
+  font-weight:400;
+  letter-spacing:1px;
+  font-family:Work Sans;
+  margin-top:6px;
+  transition: all .2s ease-in-out;
 }
-									  
-  
+
+.btn3:hover
+{
+  background-color:#0016cf;
+  color:#fff;
+}
+
 
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -61,20 +72,20 @@ margin-top:6px;
 
 @media (max-width:768px) {
 
-.h1a { font-size:45px;}	
+.h1a { font-size:45px;}
 
 
 }
 
 @media (min-width:768px) {
-	
-.default2 { display:none;}	
-	
+
+.default2 { display:none;}
+
 }
 
 
- 
-	    
+
+
 .container-fluid.first { background-image:url(Img/Gas%20Hob.png);
                          background-repeat:no-repeat;
 						 background-position:center;
@@ -82,9 +93,9 @@ margin-top:6px;
                          height:auto;
 						 padding-top:90px;
 						 padding-bottom:30px;
-						 
+
 						 }
-						 
+
 .h1a { color:#FFF;
        font-size:58px;
 	   font-family:Work Sans;
@@ -96,8 +107,8 @@ margin-top:6px;
 	  margin-left:100px;
 	  margin-right:100px;
 	  margin-top:20px;}
-	  
-	  
+
+
 	/* Style the form - display items horizontally */
 .form-inline {
   display: flex;
@@ -126,6 +137,7 @@ margin-top:6px;
   color: white;
   font-size:14px;
   font-family:Work Sans;
+  transition: all .2s ease-in-out;
 }
 
 .form-inline button:hover {
@@ -144,7 +156,7 @@ margin-top:6px;
     flex-direction: column;
     align-items: stretch;
   }
-}  
+}
 
 
 .p1
@@ -160,8 +172,8 @@ margin-left:30px;
 letter-spacing:1px;
 margin-right:7px;
 }
-	
-									  
+
+
 .img2
 { display:inline-block;
 margin:auto;
@@ -182,8 +194,8 @@ display:inline-block;
 margin:auto;
 margin-left:10px;
 }
-	
-									  
+
+
 .img4
 { display:inline-block;
 margin:auto;
@@ -221,18 +233,25 @@ padding-bottom:20px;
 
 
 .btn4
-{ background-color:#000F8B;
-color:#fff;
-border-radius:0px;
-padding:10px 30px 10px 30px;
-font-size:15px;
-font-weight:400;
-letter-spacing:1px;
-margin-top:70px!important;
-font-family:Work Sans;
-margin:auto;
-display:block;
+{
+  background-color:#000F8B;
+  color:#fff;
+  border-radius:0px;
+  padding:10px 30px 10px 30px;
+  font-size:15px;
+  font-weight:400;
+  letter-spacing:1px;
+  margin-top:70px!important;
+  font-family:Work Sans;
+  margin:auto;
+  display:block;
+  transition: all .2s ease-in-out;
+}
 
+.btn4:hover
+{
+  background-color:#0016cf;
+  color:#fff;
 }
 
 
@@ -248,24 +267,24 @@ height:505px;
 .five { background-color:#1F1F1F;
          padding-top:80px;
 		 padding-bottom:120px;}
-		 
+
 
 .h1c { color:white;
         text-align:center;
 		font-size:42px;}
-		
+
 .p6 { font-size:14px;
 letter-spacing:0.3px;
      text-align:center;
 	 color:#999;
 	 margin-top:20px;
 	 margin-bottom:50px;}
-	 
+
 .h1-num { color:#027BF6;
           font-size:60px;
 		  font-weight:bolder;
-		  }	
-		  
+		  }
+
 .h3-head { color:white; font-size:22px;}
 
 .p7 { color:#CCC;
@@ -274,12 +293,12 @@ letter-spacing:0.3px;
 	  letter-spacing:1px;
 	  padding-right:56px;
 	  line-height:25px;}
-	  
+
 
 .p9 { color:white;
       font-size:15px;
 	  margin-top:20px;
-	  text-transform:uppercase;}	  		   				 
+	  text-transform:uppercase;}
 
 
 .six
@@ -299,19 +318,27 @@ color:#1F1F1F;
 
 
 .btn5
-{ background-color:#000F8B;
-color:#fff;
-border-radius:0px;
-padding:10px 40px 10px 40px;
-font-size:16px;
-font-weight:400;
-letter-spacing:1px;
-margin-top:60px;
-font-family:Work Sans;
+{
+  background-color:#000F8B;
+  color:#fff;
+  border-radius:0px;
+  padding:10px 40px 10px 40px;
+  font-size:16px;
+  font-weight:400;
+  letter-spacing:1px;
+  margin-top:60px;
+  font-family:Work Sans;
+  transition: all .2s ease-in-out;
 }
-		
-		
-		
+
+.btn5:hover
+{
+  background-color:#0016cf;
+  color:#fff;
+}
+
+
+
 .seven{ padding-top:80px;
 	  padding-bottom:80px;
 	  background-image:url(Img/regency%20Fire%20Place.png);
@@ -320,9 +347,9 @@ font-family:Work Sans;
 	  background-size:cover;
 	  height:auto;
 	}
-	
-	
-	
+
+
+
 	.input-group { margin-top:10px; display:block;}
 
 .form-control.aa { font-size:14px;
@@ -335,10 +362,10 @@ font-family:Work Sans;
 			   letter-spacing:1px;
 			   border-radius:5px!important;
 			   }
-			   
+
 .form-control:focus { outline:none!important;
 				  box-shadow:none;
-				  }				   
+				  }
 
 .h111
 {   font-weight:900!important;
@@ -368,7 +395,14 @@ margin-bottom:30px;
 		padding-bottom:10px;
 		border-radius:0px;
 		margin-top:20px;
+    transition: all .2s ease-in-out;
 		}
+
+
+.btn1:hover {
+  background-color:#2e95fd;
+  color:white;
+}
 
 
 
@@ -396,16 +430,16 @@ line-height:27px;
 
 .footer { background-color:#ffffff;
             padding-top:80px;
-			padding-bottom:70px;}	
-			
-.h4aa { 
+			padding-bottom:70px;}
+
+.h4aa {
 	   margin-top:10px;
 	   font-size: 17px;
        letter-spacing: 1px;
        color:#000F8B;
 	   font-weight:bolder;
 	   text-transform:uppercase;}
-	   
+
 
 .ul2 { list-style-type:none;
        padding:5px;}
@@ -421,16 +455,26 @@ line-height:27px;
 .ul2 > li > a { text-decoration:none!important;
 color:#1F1F1F;
 				}
-				
-.ul2 > li:hover { color:#000000;}				
 
-				
-.img5 { padding:10px;
-        border:1px solid #000F8B;
+.ul2 > li:hover { color:#000000;}
+
+
+.img5 {
+
+   padding:10px;
+    border:1px solid #000F8B;
 		border-radius:100px;
 		margin-left:10px;
-		margin-top:30px;}	 
+		margin-top:30px;
+    width: 40px;
+    height: 38px;
+    transition: all .2s ease-in-out;
+  }
+
+.img5:hover {
+  transform: scale(1.2);
+}
 /**  Footer end **/
 
 
-			
+
