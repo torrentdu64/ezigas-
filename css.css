@@ -1,0 +1,436 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.navbar-default {   background-color:#FFFFFF;
+                    margin-bottom:0px;
+					border:none;
+					border-radius:0px;
+					height:auto;
+					position:relative;
+					padding-top:7px;
+					padding-bottom:6px;
+                    }
+					
+.navbar-brand {
+padding-top:10px;}					
+																												  
+.img1
+{ display:inline-block;
+margin-top:-15px;
+margin-right:25px;
+}
+
+
+
+.span1
+{ font-size:28px;
+color:#1F1F1F;
+font-weight:bolder!important;
+letter-spacing:1.5px;
+font-family:Work Sans;
+
+} 
+
+.btn3
+{ background-color:#000F8B;
+color:#fff;
+border-radius:0px;
+padding:10px 25px 10px 25px;
+font-size:16px;
+font-weight:400;
+letter-spacing:1px;
+font-family:Work Sans;
+margin-top:6px;
+
+}
+									  
+  
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white!important;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+.h1a { font-size:45px;}	
+
+
+}
+
+@media (min-width:768px) {
+	
+.default2 { display:none;}	
+	
+}
+
+
+ 
+	    
+.container-fluid.first { background-image:url(Img/Gas%20Hob.png);
+                         background-repeat:no-repeat;
+						 background-position:center;
+						 background-size:cover;
+                         height:auto;
+						 padding-top:90px;
+						 padding-bottom:30px;
+						 
+						 }
+						 
+.h1a { color:#FFF;
+       font-size:58px;
+	   font-family:Work Sans;
+	   font-weight:bolder;
+	   margin:0px;}
+
+.p2 { color:#FFFFFF;
+      font-size:15px;
+	  margin-left:100px;
+	  margin-right:100px;
+	  margin-top:20px;}
+	  
+	  
+	/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top:40px;
+}
+
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 1px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width:215px;
+  font-family:Work Sans;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #027BF6;
+  border: 1px solid #ddd;
+  color: white;
+  font-size:14px;
+  font-family:Work Sans;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+	 width:400px;
+  font-family:Work Sans;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}  
+
+
+.p1
+{font-size:16px;
+font-weight:500;
+font-family:Work Sans;
+color:#ffffff;
+padding-top:40px;
+padding-bottom:10px;
+display:inline-block;
+margin:auto;
+margin-left:30px;
+letter-spacing:1px;
+margin-right:7px;
+}
+	
+									  
+.img2
+{ display:inline-block;
+margin:auto;
+}
+
+.second
+{ background-color:#EBEBEB;
+padding-top:50px;
+padding-bottom:40px;
+}
+
+.p4
+{font-size:25px;
+font-weight:bloder;
+font-family:Work Sans;
+color:#8E8E8E;
+display:inline-block;
+margin:auto;
+margin-left:10px;
+}
+	
+									  
+.img4
+{ display:inline-block;
+margin:auto;
+margin-bottom:8px;
+}
+
+
+
+
+
+.h2a
+{ font-size:35px;
+font-weight:bolder;
+font-family:Work Sans;
+text-align:left;
+margin-bottom:50px;
+
+
+}
+
+.third
+{ padding-top:100px;
+padding-bottom:130px;
+}
+
+
+.p3
+{ font-size:24px;
+font-weight:100;
+font-family:Work Sans;
+text-align:left;
+padding-bottom:20px;
+
+}
+
+
+.btn4
+{ background-color:#000F8B;
+color:#fff;
+border-radius:0px;
+padding:10px 30px 10px 30px;
+font-size:15px;
+font-weight:400;
+letter-spacing:1px;
+margin-top:70px!important;
+font-family:Work Sans;
+margin:auto;
+display:block;
+
+}
+
+
+.forth
+{ background-image:url(Img/Institu%20image%20GCFH%20on%20House.png);
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+height:505px;
+}
+
+
+.five { background-color:#1F1F1F;
+         padding-top:80px;
+		 padding-bottom:120px;}
+		 
+
+.h1c { color:white;
+        text-align:center;
+		font-size:42px;}
+		
+.p6 { font-size:14px;
+letter-spacing:0.3px;
+     text-align:center;
+	 color:#999;
+	 margin-top:20px;
+	 margin-bottom:50px;}
+	 
+.h1-num { color:#027BF6;
+          font-size:60px;
+		  font-weight:bolder;
+		  }	
+		  
+.h3-head { color:white; font-size:22px;}
+
+.p7 { color:#CCC;
+      margin-top:20px;
+	  font-size:12px;
+	  letter-spacing:1px;
+	  padding-right:56px;
+	  line-height:25px;}
+	  
+
+.p9 { color:white;
+      font-size:15px;
+	  margin-top:20px;
+	  text-transform:uppercase;}	  		   				 
+
+
+.six
+{ padding-top:60px;
+padding-bottom:110px;
+}
+
+.h1b
+{  font-family:Work Sans;
+margin-top:40px;
+font-weight:900;
+letter-spacing:1px;
+font-size:39px;
+color:#1F1F1F;
+}
+
+
+
+.btn5
+{ background-color:#000F8B;
+color:#fff;
+border-radius:0px;
+padding:10px 40px 10px 40px;
+font-size:16px;
+font-weight:400;
+letter-spacing:1px;
+margin-top:60px;
+font-family:Work Sans;
+}
+		
+		
+		
+.seven{ padding-top:80px;
+	  padding-bottom:80px;
+	  background-image:url(Img/regency%20Fire%20Place.png);
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  height:auto;
+	}
+	
+	
+	
+	.input-group { margin-top:10px; display:block;}
+
+.form-control.aa { font-size:14px;
+			   padding-top:20px;
+			   padding-bottom:20px;
+			   padding-left:15px;
+			   color:black!important;
+			   border:none;
+			   background-color:white;
+			   letter-spacing:1px;
+			   border-radius:5px!important;
+			   }
+			   
+.form-control:focus { outline:none!important;
+				  box-shadow:none;
+				  }				   
+
+.h111
+{   font-weight:900!important;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align:left;
+    text-transform: none;
+	letter-spacing: 1px;
+	font-family:Work Sans;
+	margin-bottom:30px;
+}
+
+.p8
+{ text-align:left;
+font-size:17.5px;
+color:#DEDEDE;
+font-family:Work Sans;
+margin-bottom:30px;
+}
+
+.btn1 { display:block!important;
+        width:100%;
+		background-color:#027BF6;
+		color:white;
+		text-transform:uppercase;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-radius:0px;
+		margin-top:20px;
+		}
+
+
+
+.h1d
+{ color: #FFFFFF;
+text-align:left;
+font-weight:900;
+text-transform: none;
+font-size: 35px;
+line-height:45px;
+}
+
+
+.p5
+{ font-size:13px;
+text-align:left;
+color:#FFFFFF;
+letter-spacing:1px;
+margin-top:30px;
+line-height:27px;
+}
+
+
+
+
+.footer { background-color:#ffffff;
+            padding-top:80px;
+			padding-bottom:70px;}	
+			
+.h4aa { 
+	   margin-top:10px;
+	   font-size: 17px;
+       letter-spacing: 1px;
+       color:#000F8B;
+	   font-weight:bolder;
+	   text-transform:uppercase;}
+	   
+
+.ul2 { list-style-type:none;
+       padding:5px;}
+
+.ul2 > li { margin-top:10px;
+            text-decoration:none;
+          font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    line-height: 25px;
+    color: #1F1F1F;}
+
+.ul2 > li > a { text-decoration:none!important;
+color:#1F1F1F;
+				}
+				
+.ul2 > li:hover { color:#000000;}				
+
+				
+.img5 { padding:10px;
+        border:1px solid #000F8B;
+		border-radius:100px;
+		margin-left:10px;
+		margin-top:30px;}	 
+/**  Footer end **/
+
+
+			
