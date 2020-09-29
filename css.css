@@ -1,11 +1,88 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/**/
+
+html {
+  /*scroll-behavior: smooth;*/
+}
 
 body{
-  font-family:Work Sans;
+  box-sizing: content-box;
+  font-family: 'Work Sans', sans-serif;
 
 }
+
+
+
+*:focus {
+    outline: 0 !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn:focus{
+  color: white;
+  outline: none;
+  outline-offset: 0px;
+}
+
+.section-service{
+      margin-left: 70px;
+}
+
+label#name-error{
+  color: red;
+  background: darkgrey;
+}
+label#num-error{
+  color: red;
+  background: darkgrey;
+}
+
+label#emailBottom-error{
+  color: red;
+  background: darkgrey;
+}
+
+label#area-error{
+    color: red;
+    background: darkgrey;
+}
+
+label#comment-error{
+  color: red;
+    background: darkgrey;
+}
+
+
+label#email-error {
+    position: absolute;
+    color: red;
+    background: darkgrey;
+    margin-top: 67px;
+}
+
+label#pwd-error {
+    position: absolute;
+     color: red;
+    background: darkgrey;
+    margin-left: 22%;
+    margin-top: 67px;
+
+}
+
+label#enquiry2-error {
+    position: absolute;
+    color: red;
+    background: darkgrey;
+    margin-top: 67px;
+    margin-left: 432px;
+
+}
+
 
 
 
@@ -30,13 +107,15 @@ margin-right:25px;
 
 
 
-.span1
-{ font-size:28px;
-color:#1F1F1F;
-font-weight:bolder!important;
-letter-spacing:1.5px;
-font-family:Work Sans;
-
+.span1 {
+    font-size: 23px;
+    color: #1F1F1F;
+    font-weight: bolder!important;
+    letter-spacing: 1.5px;
+    font-family: Work Sans;
+    height: 42px;
+    display: flex;
+    align-items: center;
 }
 
 .btn3
@@ -298,8 +377,13 @@ letter-spacing:0.3px;
 .p9 { color:white;
       font-size:15px;
 	  margin-top:20px;
-	  text-transform:uppercase;}
+	  text-transform:uppercase;
+    transition: all .2s ease-in-out;
+  }
 
+.p9:hover {
+  color: #d5d5d5;
+}
 
 .six
 { padding-top:60px;

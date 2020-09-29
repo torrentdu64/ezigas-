@@ -9,11 +9,18 @@
   <link rel="stylesheet" href="css.css">
   <link rel="stylesheet" href="hover-min.css">
   <link rel="stylesheet" href="animate.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
 
   <!--<link rel="stylesheet" href="bootstrap-theme.min.css">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+
+
+
+
+
 
   <script src="jquery.easing.min.js"></script>
 
@@ -59,7 +66,7 @@
     </div>
 
     <div class="col-sm-2">
-    <a href="https://loopinewool.com/my-account/"><button type="button" class="btn btn3">GET STARTED</button></a>
+    <a href="#contact-form"><button type="button" class="btn btn3">GET STARTED</button></a>
     </div>
 
       </div><!--row-->
@@ -87,12 +94,12 @@
     <p class="p2 wow animated flash">EziGas are your ONLY, ONE STOP SHOP for all your Gas requirements, from Natural Gas to LPG Gas connections, appliance sales and a range of installation packages. Offering top quality and best value for money with professional advice.</p>
 
 
-    <form class="form-inline" action="https://ezigas.co.nz/contact/#wpcf7-f1128-p1989-o1"  method="post">
-  <input type="email" id="email" placeholder="NAME" name="email" class="abcd">
-  <input type="password" id="pwd" placeholder="CONTACT" name="pswd">
- <input type="password" id="pwd" placeholder="ENQUIRY* (MAX 100 WORDS)" name="pswd" style="width:270px;">
-  <button type="submit">REQUEST CALLBACK</button>
-</form>
+    <form id="inquery" class="form-inline">
+      <input type="text" id="email" placeholder="NAME" name="pswd" class="abcd">
+      <input type="email" id="pwd" placeholder="CONTACT" name="email">
+      <input type="text" id="enquiry2" placeholder="ENQUIRY* (MAX 100 WORDS)" name="enquiry" style="width:270px;">
+      <button type="submit">REQUEST CALLBACK</button>
+    </form>
 
 
 
@@ -181,7 +188,7 @@
 <p class="p3">Over the last 20 years EziGas has grown from strength to strength and are now one of the major Gas contracting companies in Auckland. </p>
 <p class="p3">EziGas have increased their reputation during the years by building the business and relationships and are now highly regarded throughout the Gas Fitting Industry.</p>
 <p class="p3"> Much of EziGas’ good reputation is due to the experience and vast knowledge of it’s main director Steve Watson, with the support of a great team behind him. Their commercial expertise varies considerably from large to small projects.</p>
-<button type="Button" class="btn btn4">GET IN TOUCH TO TALK TO ONE OF OUR EXPERTS!</button>
+ <a  href="#contact-form"><button  type="Button" class="btn btn4">GET IN TOUCH TO TALK TO ONE OF OUR EXPERTS!</button></a>
 </div>
 
 
@@ -211,7 +218,7 @@
 <h1 class="h1c">WIDE RANGE OF SERVICES</h1>
 <p class="p6">We offer a wide range of gas related services. Get in touch to find out more!</p>
 
-<div class="row">
+<div class="row section-service">
 
  <div class="col-sm-4">
 
@@ -239,7 +246,7 @@
 
 
 
-<div class="row" style="margin-top:80px;">
+<div class="row section-service" style="margin-top:80px;">
 
  <div class="col-sm-4">
 
@@ -277,7 +284,7 @@
 
 <div class="col-sm-8 text-center">
 <h1 class="h1b">TALK TO US TODAY FOR YOUR NEXT GAS INSTALLATION</h1>
-<button type="button" class="btn btn5">GET IN TOUCH NOW!</button>
+  <a  href="#contact-form"><button type="button" class="btn btn5">GET IN TOUCH NOW!</button> </a>
 </div>
 
 <div class="col-sm-2"></div>
@@ -300,27 +307,27 @@
 
     <div class="col-sm-5">
      <h2 class="h1d">AUCKLAND WIDE SERVICES!</h2>
-    <p class="p5">Experts in Domestic, Commercial & Industrial Connections <br> Gas Hot Water Sales and a range of installation packages <br> Installations, Domestic, Commercial & Industrial <br> LPG Options available  <br> Builders packages available (including pipe in trench) <br> Underground work <br> Major heating systems for chicken farms and commercial <br> greenhouses, catering factories, restaurants & supermarkets  <br>Indoor and Outdoor heating options for restaurants <br> Subdivisions  <br>Townhouses and apartment blocks <br> Multiple hot water and gas meter systems <br> Over 20 years experience in the Gas Industry <br> NO MIDDLE MAN – passing on the savings to you!</p>
+    <p class="p5">Experts in Domestic, Commercial & Industrial Connections  Gas Hot Water Sales and a range of installation packages  Installations, Domestic, Commercial & Industrial  LPG Options available   Builders packages available (including pipe in trench)  Underground work  Major heating systems for chicken farms and commercial  greenhouses, catering factories, restaurants & supermarkets  Indoor and Outdoor heating options for restaurants  Subdivisions  Townhouses and apartment blocks  Multiple hot water and gas meter systems  Over 20 years experience in the Gas Industry  NO MIDDLE MAN – passing on the savings to you!</p>
     </div>
 
 
 
-    <div class="col-sm-7" style="padding-right:30px; padding-left:70px;">
+    <div class="col-sm-7" style="padding-right:30px; padding-left:70px;" id="contact-form">
     <h2 class="h111">SUBMIT AN ENQUIRY</h2>
-    <p class="p8">Fill out our enquiry form below and we’ll get in<br> touch with you as soon as possible!</p>
-    <form action="https://ezigas.co.nz/contact/#wpcf7-f1128-p1989-o1"  method="post" style="margin-top:10px;">
+    <p class="p8">Fill out our enquiry form below and we’ll get in touch with you as soon as possible!</p>
+    <form  id="inquery-bottom" style="margin-top:10px;">
 
     <div class="row">
 
         <div class="col-sm-6">
         <div class="input-group">
-        <input type="name" class="form-control aa" id="name" placeholder="NAME*">
+        <input type="name" class="form-control aa" id="name" placeholder="NAME*" name="name">
         </div>
         </div>
 
         <div class="col-sm-6">
          <div class="input-group">
-        <input type="number" class="form-control aa" style="margin-bottom:2px;" id="num" placeholder="CONTACT*">
+        <input type="number" class="form-control aa" style="margin-bottom:2px;" id="num" placeholder="CONTACT*" name="contact">
         </div>
         </div>
 
@@ -329,24 +336,24 @@
 
     <div class="row">
          <div class="col-sm-6">
-         <div class="input-group">
-        <input type="email" class="form-control aa" id="email" placeholder="EMAIL*">
-        </div>
+           <div class="input-group">
+            <input type="text" class="form-control aa" id="emailBottom" placeholder="EMAIL*" name="emailBottom">
+          </div>
         </div>
 
        <div class="col-sm-6">
          <div class="input-group">
-        <input type="area" class="form-control aa" id="email" placeholder="AREA OF INTEREST*">
+         <input type="text" class="form-control aa" id="area" placeholder="AREA OF INTEREST*" name="area">
         </div>
-        </div>
-
       </div>
+
+    </div>
 
        <div class="row">
 
        <div class="col-sm-12">
         <div class="input-group">
-        <textarea class="form-control aa" rows="7" id="comment" placeholder="MESSAGE*" style="padding-top:10px;"></textarea>
+        <textarea class="form-control aa" rows="7" id="comment" placeholder="MESSAGE*" style="padding-top:10px;" name="message"></textarea>
         </div>
        </div>
 
@@ -458,9 +465,70 @@
   </div><!--container-->
 </div><!--footer-->
 
+<script>
 
 
+  var $root = $('html, body');
 
+  $('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    return false;
+  });
+
+  $(document).ready(function () {
+
+      $('#inquery').validate({ // initialize the plugin
+          rules: {
+              email: {
+                  required: true,
+                  email: true
+              },
+              pswd: {
+                  required: true
+              },
+               enquiry: {
+                  required: true,
+                  maxlength: 150
+              }
+          }
+      });
+
+
+      $.validator.methods.emailBottom = function( value, element ) {
+          return this.optional( element ) || /[a-z]+@[a-z]+\.[a-z]+/.test( value );
+        }
+
+
+       $('#inquery-bottom').validate({ // initialize the plugin
+          rules: {
+              emailBottom: {
+                  required: true,
+                  email: true
+              },
+              contact: {
+                  required: true
+              },
+               name: {
+                  required: true
+
+              },
+               area: {
+                  required: true
+
+              },
+               message: {
+                  required: true
+
+              }
+          }
+      });
+
+  });
+
+</script>
 
 
 </body>
