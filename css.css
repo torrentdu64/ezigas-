@@ -23,6 +23,74 @@ a:hover {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 700px) {
+  .fa-phone{
+    display:block;
+    float: right;
+    margin-right: 30px;
+  }
+  .fa-envelope{
+    display:block;
+    padding: 6px;
+  }
+  .btn3{
+    display: none;
+  }
+  span.span1{
+    display: none;
+  }
+
+  .branding{
+    display: flex;
+  }
+
+
+
+  p.p4 {
+    font-size: 19px;
+  }
+
+  .mobile-service{
+    margin-bottom: 65px;
+  }
+
+  .mobile-hide{
+    display: none;
+  }
+
+  .mobile-format{
+    text-align: center;
+  }
+
+  .logo-center{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+}
+
+@media only screen and (min-width: 700px) {
+
+  .fa-phone{
+    display:none;
+  }
+  .fa-envelope{
+    display:none;
+  }
+  .btn3{
+    display: block;
+  }
+
+
+}
+
+
+
+
+
 .btn:focus{
   color: white;
   outline: none;
@@ -233,7 +301,7 @@ margin-right:25px;
 
   .form-inline {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
 }
 
@@ -425,7 +493,10 @@ color:#1F1F1F;
 
 .seven{ padding-top:80px;
 	  padding-bottom:80px;
-	  background-image:url(Img/regency%20Fire%20Place.png);
+	  background-image:   linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(Img/regency%20Fire%20Place.png);
 	  background-position:center;
 	  background-repeat:no-repeat;
 	  background-size:cover;
