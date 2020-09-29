@@ -13,6 +13,8 @@
 
   <!--<link rel="stylesheet" href="bootstrap-theme.min.css">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
@@ -96,7 +98,7 @@
     <p class="p2 wow animated flash">EziGas are your ONLY, ONE STOP SHOP for all your Gas requirements, from Natural Gas to LPG Gas connections, appliance sales and a range of installation packages. Offering top quality and best value for money with professional advice.</p>
 
 
-    <form id="inquery" class="form-inline">
+    <form id="inquery" class="form-inline relative-form">
       <input type="text" id="email" placeholder="NAME*" name="pswd" class="abcd">
       <input type="email" id="pwd" placeholder="CONTACT*" name="email">
       <input type="text" id="enquiry2" placeholder="ENQUIRY* (MAX 100 WORDS)" name="enquiry" >
@@ -123,10 +125,10 @@
 
 
     <div class="col-sm-4">
-
-   <p class="p1">VISIT OUR WEBSITE</p>
-   <img src="Img/Icon awesome-location-arrow@2x.png" class="img-responsive img2" width="15">
-
+      <a href="https://ezigas.co.nz/" class="link-home">
+       <p class="p1">VISIT OUR WEBSITE</p>
+       <img src="Img/Icon awesome-location-arrow@2x.png" class="img-responsive img2" width="15">
+     </a>
 
     </div>
 
@@ -314,16 +316,18 @@
 
 
 
-    <div class="col-sm-7" style="padding-right:30px; padding-left:70px;" id="contact-form">
+    <div class="col-sm-7 form-space" id="contact-form">
     <h2 class="h111">SUBMIT AN ENQUIRY</h2>
     <p class="p8">Fill out our enquiry form below and we’ll get in touch with you as soon as possible!</p>
-    <form  id="inquery-bottom" style="margin-top:10px;">
+    <form action="/mailer.php" method="post" id="inquery-bottom" style="margin-top:10px;">
+
+      <div id="form-messages" class="alert d-none text-center" role="alert"></div>
 
     <div class="row">
 
         <div class="col-sm-6 col-xs-12">
           <div class="input-group">
-            <input type="name" class="form-control aa" id="name" placeholder="NAME*" name="name">
+            <input type="text" class="form-control aa" id="name" placeholder="NAME*" name="name">
           </div>
         </div>
 
@@ -339,7 +343,7 @@
     <div class="row">
          <div class="col-sm-6 col-xs-12">
            <div class="input-group">
-            <input type="text" class="form-control aa" id="emailBottom" placeholder="EMAIL*" name="emailBottom">
+            <input type="email" required class="form-control aa" id="emailBottom" placeholder="EMAIL*" name="emailBottom">
           </div>
         </div>
 
@@ -466,7 +470,7 @@
    </div><!--row-->
   </div><!--container-->
 </div><!--footer-->
-
+<script src="./mailer.js"></script>
 <script>
 
 
